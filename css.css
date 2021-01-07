@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background-color: rgb(219, 219, 219);
+}
+
+#top {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(219, 219, 219);
+}
+#sitename {
+  position: relative;
+  top: 45%;
+  left: 15%;
+  width: 85%;
+  font-family: objektiv-mk3, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3rem;
+}
+#menue {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background-color: rgb(219, 219, 219);
+}
+.menuebox {
+  width: 33.3333%;
+  border: solid 2px #bdbdbd;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+#about {
+  background-color: rgb(219, 219, 219);
+  display: flex;
+}
+.aboutbox {
+  background-color: rgb(219, 219, 219);
+  width: 33.3333%;
+  padding: 50px;
+}
+#rogo {
+  border-radius: 50%;
+  height: 100px;
+  position: relative;
+  top: 31px;
+}
+.about {
+  width: 1300px;
+  margin: auto;
+}
+.rogo {
+  border-radius: 50%;
+  width: 90%;
+  margin: 5%;
+}
+.kikaku {
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 2px 2px 0px 0px;
+  font-size: 0.8rem;
+}
+.kyoku {
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0px 0px 10px 3px;
+  font-size: 1.1rem;
+}
