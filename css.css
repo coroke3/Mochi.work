@@ -57,6 +57,10 @@ body {
   padding: 2%;
   width: 27%;
 }
+.aboutbox a {
+  color: #000;
+  text-decoration: none;
+}
 #rogo {
   border-radius: 50%;
   height: 100px;
@@ -86,22 +90,7 @@ body {
   margin: 0px 0px 10px 3px;
   font-size: 1.1rem;
 }
-.youtube {
-  color: #ff0000;
-  font-size: 1.3rem;
-}
-.twitter {
-  color: #11a8ff;
-  font-size: 1.3rem;
-}
-.github {
-  color: #000000;
-  font-size: 1.3rem;
-}
-.instagram {
-  color: #ff579d;
-  font-size: 1.3rem;
-}
+
 h1 {
   font-family: futura-pt, sans-serif;
   font-weight: 700;
@@ -125,6 +114,22 @@ p {
 .credit {
   font-style: italic;
 }
+.youtube {
+  color: #ff0000;
+  font-size: 1.3rem;
+}
+.twitter {
+  color: #11a8ff;
+  font-size: 1.3rem;
+}
+.github {
+  color: #000000;
+  font-size: 1.3rem;
+}
+.instagram {
+  color: #ff579d;
+  font-size: 1.3rem;
+}
 @media screen and (max-width: 1350px) {
   .about {
     width: 1000px;
@@ -138,6 +143,12 @@ p {
   .aboutbox {
     width: 27%;
     padding: 2%;
+  }
+  #menue {
+    height: 26px;
+  }
+  .menuebox {
+    padding-top: 0px;
   }
 }
 @media screen and (max-width: 850px) {
