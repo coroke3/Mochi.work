@@ -1,0 +1,156 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background-color: rgb(219, 219, 219);
+}
+
+#top {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(219, 219, 219);
+}
+#sitename {
+  position: relative;
+  top: 40%;
+  left: 15%;
+  width: 85%;
+  font-family: objektiv-mk3, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3rem;
+}
+#menue {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  background-color: rgba(214, 214, 214, 0.945);
+}
+.menuebox {
+  width: 33.3333%;
+  border: solid 2px #bdbdbd;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.menuebox a {
+  color: #585858;
+  text-decoration: none;
+}
+.about {
+  width: 100%;
+}
+.aboutboxs {
+  background-color: rgb(219, 219, 219);
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutbox {
+  background-color: rgb(219, 219, 219);
+  padding: 2%;
+  width: 29%;
+}
+.aboutbox a {
+  color: #000;
+  text-decoration: none;
+}
+#rogo {
+  border-radius: 50%;
+  height: 100px;
+  position: relative;
+  top: 31px;
+}
+.about {
+  width: 1300px;
+  margin: auto;
+}
+.rogo {
+  border-radius: 50%;
+  width: 90%;
+  margin: 5%;
+}
+.kikaku {
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 2px 2px 0px 0px;
+  font-size: 0.8rem;
+}
+.kyoku {
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0px 0px 10px 3px;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+p {
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.credit {
+  font-style: italic;
+}
+
+@media screen and (max-width: 1350px) {
+  .about {
+    width: 1000px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .about {
+    width: 800px;
+  }
+  .aboutbox {
+    width: 27%;
+    padding: 2%;
+  }
+  #menue {
+    height: 26px;
+  }
+  .menuebox {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .about {
+    width: 600px;
+  }
+  .aboutboxs .aboutbox {
+    width: 40%;
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .about {
+    width: 100%;
+  }
+  .aboutboxs .aboutbox {
+    width: 90%;
+    padding: 5%;
+  }
+}
