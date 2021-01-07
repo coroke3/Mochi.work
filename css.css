@@ -45,14 +45,17 @@ body {
 .about {
   width: 100%;
 }
-#about {
+.aboutboxs {
   background-color: rgb(219, 219, 219);
+  flex-wrap: wrap;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .aboutbox {
   background-color: rgb(219, 219, 219);
-  width: 33.3333%;
-  padding: 50px;
+  padding: 2%;
+  width: 27%;
 }
 #rogo {
   border-radius: 50%;
@@ -119,37 +122,39 @@ p {
   font-weight: 600;
   font-style: normal;
 }
+.credit {
+  font-style: italic;
+}
 @media screen and (max-width: 1350px) {
-  #about {
-    background-color: rgb(219, 219, 219);
-    display: flex;
-  }
-  .aboutbox {
-    background-color: rgb(219, 219, 219);
-    width: 33.3333%;
-    padding: 20px;
-  }
   .about {
     width: 1000px;
     margin: auto;
   }
 }
 @media screen and (max-width: 1020px) {
-  #about {
-    width: 100%;
-  }
   .about {
-    width: 100%;
+    width: 800px;
+  }
+  .aboutbox {
+    width: 27%;
+    padding: 2%;
   }
 }
 @media screen and (max-width: 850px) {
-  #about {
-    width: 100%;
+  .about {
+    width: 600px;
   }
+  .aboutboxs .aboutbox {
+    width: 40%;
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 620px) {
   .about {
     width: 100%;
   }
-  .aboutbox {
-    width: 100%;
+  .aboutboxs .aboutbox {
+    width: 90%;
+    padding: 5%;
   }
 }
