@@ -12,7 +12,7 @@ body {
 }
 #sitename {
   position: relative;
-  top: 45%;
+  top: 40%;
   left: 15%;
   width: 85%;
   font-family: objektiv-mk3, sans-serif;
@@ -26,7 +26,7 @@ body {
   position: fixed;
   bottom: 0;
   display: flex;
-  background-color: rgb(219, 219, 219);
+  background-color: rgba(214, 214, 214, 0.945);
 }
 .menuebox {
   width: 33.3333%;
@@ -37,6 +37,13 @@ body {
   font-size: 20px;
   text-align: center;
   padding-top: 10px;
+}
+.menuebox a {
+  color: #585858;
+  text-decoration: none;
+}
+.about {
+  width: 100%;
 }
 #about {
   background-color: rgb(219, 219, 219);
@@ -75,4 +82,74 @@ body {
   font-style: normal;
   margin: 0px 0px 10px 3px;
   font-size: 1.1rem;
+}
+.youtube {
+  color: #ff0000;
+  font-size: 1.3rem;
+}
+.twitter {
+  color: #11a8ff;
+  font-size: 1.3rem;
+}
+.github {
+  color: #000000;
+  font-size: 1.3rem;
+}
+.instagram {
+  color: #ff579d;
+  font-size: 1.3rem;
+}
+h1 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+p {
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+@media screen and (max-width: 1350px) {
+  #about {
+    background-color: rgb(219, 219, 219);
+    display: flex;
+  }
+  .aboutbox {
+    background-color: rgb(219, 219, 219);
+    width: 33.3333%;
+    padding: 20px;
+  }
+  .about {
+    width: 1000px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1020px) {
+  #about {
+    width: 100%;
+  }
+  .about {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  #about {
+    width: 100%;
+  }
+  .about {
+    width: 100%;
+  }
+  .aboutbox {
+    width: 100%;
+  }
 }
