@@ -20,28 +20,7 @@ body {
   font-style: italic;
   font-size: 3rem;
 }
-#menue {
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  background-color: rgba(214, 214, 214, 0.945);
-}
-.menuebox {
-  width: 33.3333%;
-  border: solid 2px #bdbdbd;
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 20px;
-  text-align: center;
-  padding-top: 10px;
-}
-.menuebox a {
-  color: #585858;
-  text-decoration: none;
-}
+
 .about {
   width: 100%;
 }
@@ -130,6 +109,9 @@ p {
   color: #ff579d;
   font-size: 1.3rem;
 }
+.link {
+  color: #53acf5;
+}
 @media screen and (max-width: 1350px) {
   .about {
     width: 1000px;
@@ -143,12 +125,6 @@ p {
   .aboutbox {
     width: 27%;
     padding: 2%;
-  }
-  #menue {
-    height: 26px;
-  }
-  .menuebox {
-    padding-top: 0px;
   }
 }
 @media screen and (max-width: 850px) {

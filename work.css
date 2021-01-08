@@ -20,42 +20,23 @@ body {
   font-style: italic;
   font-size: 3rem;
 }
-#menue {
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  background-color: rgba(214, 214, 214, 0.945);
-}
-.menuebox {
-  width: 33.3333%;
-  border: solid 2px #bdbdbd;
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 20px;
-  text-align: center;
-  padding-top: 10px;
-}
-.menuebox a {
-  color: #585858;
-  text-decoration: none;
-}
+
 .about {
   width: 100%;
 }
 .aboutboxs {
   background-color: rgb(219, 219, 219);
   flex-wrap: wrap;
-  width: 100%;
+  width: 98%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
 .aboutbox {
   background-color: rgb(219, 219, 219);
-  padding: 2%;
-  width: 29%;
+  padding: 0%;
+  margin: 0;
+  width: 31%;
 }
 .aboutbox a {
   color: #000;
@@ -114,7 +95,9 @@ p {
 .credit {
   font-style: italic;
 }
-
+.link {
+  color: #53acf5;
+}
 @media screen and (max-width: 1350px) {
   .about {
     width: 1000px;
@@ -126,8 +109,9 @@ p {
     width: 800px;
   }
   .aboutbox {
-    width: 27%;
-    padding: 2%;
+    width: 32%;
+    margin: 0;
+    padding: 0;
   }
   #menue {
     height: 26px;
@@ -141,8 +125,8 @@ p {
     width: 600px;
   }
   .aboutboxs .aboutbox {
-    width: 40%;
-    padding: 5%;
+    width: 48%;
+    padding: 0%;
   }
 }
 @media screen and (max-width: 620px) {

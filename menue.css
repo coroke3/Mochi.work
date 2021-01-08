@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.menuetext {
+  width: 50%;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 0px;
+}
+.menueboxtext {
+  width: 40%;
+  text-align: center;
+}
+#menue {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: rgba(204, 204, 204, 0.945);
+}
+#rogomini {
+  height: 40px;
+  margin: 0;
+  position: relative;
+  top: 11px;
+}
+.menuebox {
+  width: 15%;
+  border: solid 0px #bdbdbd;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 13px;
+}
+.menuebox a {
+  color: #585858;
+  text-decoration: none;
+}
+.menueboxtext h1 {
+  width: 100%;
+  margin: 12px 0px 0px 10%;
+  position: relative;
+  top: -18px;
+  font-size: 1.5em;
+}
+.link {
+  color: #53acf5;
+}
