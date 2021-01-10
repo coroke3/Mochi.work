@@ -19,6 +19,7 @@ body {
   font-weight: 700;
   font-style: italic;
   font-size: 3rem;
+  color: #111111;
 }
 
 .about {
@@ -67,6 +68,7 @@ a {
   font-style: normal;
   margin: 2px 2px 0px 0px;
   font-size: 0.8rem;
+  color: #111111;
 }
 .kyoku {
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
@@ -74,30 +76,38 @@ a {
   font-style: normal;
   margin: 0px 0px 10px 3px;
   font-size: 1.1rem;
+  color: #111111;
 }
 
 h1 {
   font-family: futura-pt, sans-serif;
   font-weight: 700;
   font-style: italic;
+  color: #111111;
 }
 h2 {
   font-family: futura-pt, sans-serif;
   font-weight: 700;
   font-style: italic;
+  color: #111111;
 }
 h3 {
   font-family: futura-pt, sans-serif;
   font-weight: 700;
   font-style: italic;
+  color: #111111;
 }
 p {
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
   font-style: normal;
+  color: #111111;
 }
 .credit {
   font-style: italic;
+}
+.url {
+  color: #2b6392;
 }
 
 @media screen and (max-width: 1350px) {
