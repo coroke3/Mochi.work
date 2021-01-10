@@ -38,6 +38,10 @@ body {
   margin: 0;
   width: 31%;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
 .aboutbox a {
   color: #000;
   text-decoration: none;
@@ -95,9 +99,7 @@ p {
 .credit {
   font-style: italic;
 }
-.link {
-  color: #53acf5;
-}
+
 @media screen and (max-width: 1350px) {
   .about {
     width: 1000px;

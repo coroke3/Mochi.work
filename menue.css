@@ -9,7 +9,7 @@
   padding-top: 0px;
 }
 .menueboxtext {
-  width: 40%;
+  width: 30%;
   text-align: center;
 }
 #menue {
@@ -28,7 +28,6 @@
 }
 .menuebox {
   width: 15%;
-  border: solid 0px #bdbdbd;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: italic;
@@ -45,8 +44,23 @@
   margin: 12px 0px 0px 10%;
   position: relative;
   top: -18px;
-  font-size: 1.5em;
+  font-size: 26px;
 }
-.link {
-  color: #53acf5;
+@media screen and (max-width: 640px) {
+  .menuebox {
+    width: 14%;
+    font-size: 15px;
+    padding-top: 11px;
+  }
+  .menueboxtext h1 {
+    font-size: 0px;
+    width: 75%;
+  }
+  #rogomini {
+    height: 40px;
+    top: 7px;
+  }
+  #menue {
+    height: 40px;
+  }
 }
