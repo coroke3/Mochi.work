@@ -23,13 +23,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="lity.min.js"></script>
     <script>
-        (function (d) {
+        (function(d) {
             var config = {
-                kitId: 'cyr3hyt',
-                scriptTimeout: 3000,
-                async: true
-            },
-                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+                    kitId: 'cyr3hyt',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
 </head>
@@ -38,9 +58,11 @@
     <section id="top">
         <h1 id="sitename"><img src="img/toukarogo.png" id="rogo">Mochi</h1>
         <div id="menue">
-            <div class="menueboxtext"><a href="index.html">
+            <div class="menueboxtext">
+                <a href="index.html">
                     <h1 id="menuetext"><img src="img/toukarogo.png" id="rogomini">Mochi </h1>
-                </a></div>
+                </a>
+            </div>
             <div class="menuebox"><a href="about.html">About</a></div>
             <div class="menuebox"><a href="portfolio.html">Portfolio</a></div>
             <div class="menuebox"><a href="work.html">Work</a></div>
@@ -50,16 +72,13 @@
     </section>
     <section class="about">
         <center>
-            <p>
-                お知らせ<br>
-                2022年3月に高校受験を控えているため、徐々に活動を縮小する方針です。関連の企画等での休止などを予定しております。<br>詳しくは各企画のホームページをご覧ください。
-            </p>
+
         </center>
         <div class="aboutboxs">
             <div class="aboutbox">
                 <h2>About</h2>
                 <img src="img/mochi.webp" class="rogo">
-                <p>マルチクリエイターになりたい学生クリエイター。<br>PVSFという企画を運営したり、映像を作ったりしています。<br><br>
+                <p>いろいろやってる学生クリエイターもどき。<br><br>
                     <a href="https://twitter.com/coroke3" class="twitter">
                         <i class="fab fa-twitter">　</i></a>
                     <a href="https://www.youtube.com/channel/UCO7mBuPdZolV_TkirpLJirw" class="youtube">
@@ -100,14 +119,14 @@
                         <td><a href="https://lbfmmovie.netlify.app/" class="url">LBFM サイト制作</a></td>
                     </tr>
                     <tr>
-                    <tr>
+                        <tr>
+                            <td>12/27</td>
+
+                            <td><a href="https://youtu.be/ZWBLuBAshZE" class="url">第四回連投合作 主催</a></td>
+                        </tr>
                         <td>12/27</td>
 
-                        <td><a href="https://youtu.be/ZWBLuBAshZE" class="url">第四回連投合作 主催</a></td>
-                    </tr>
-                    <td>12/27</td>
-
-                    <td><a href="https://youtu.be/1E1Oejpr1TQ" class="url">#PVSF2020R 主催</a></td>
+                        <td><a href="https://youtu.be/1E1Oejpr1TQ" class="url">#PVSF2020R 主催</a></td>
                     </tr>
                     <tr>
                         <td>12/26</td>
